@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap\css\bootstrap.css" />
+    <title>Add Products</title>
+    <style>
+      span {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <input type="hidden" id="id" name="id" value="0" />
+        <div class="m-4">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" />
+            <span id="spnname"></span>
+          </div>
+          <div class="mb-3">
+            <label for="qty" class="form-label">Qty</label>
+            <input type="number" class="form-control" id="qty" />
+            <span id="spnqty"></span>
+          </div>
+          <div class="mb-3">
+            <label for="rate" class="form-label">Rate</label>
+            <input type="number" class="form-control" id="rate" />
+            <span id="spnrate"></span>
+          </div>
+          <div class="mb-3">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="isactive"
+              checked
+            />
+            <label for="isactive" class="form-check-label">Active?</label>
+          </div>
+          <div>
+            <button class="btn btn-primary" id="btnSave">Save</button>&nbsp;
+            <button type="reset" class="btn btn-secondary">Reset</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="jquery/jquery.js"></script>
+    <script src="bootstrap\js\bootstrap.js"></script>
+    <script>
+              $(document).ready(function(){
+                  function IsBlank(input) {
+                  let value = input.val().trim();
+                  if (value == undefined || value == '')
+                      return true;
+                  return false;
+              }
+              function IsOnlyNumeric(input) {
+                  let value = input.val().trim();
+                  return isNaN(value);
+              }
+                      $("#spnname").text("*");
+                      $("#spnqty").text("*");
+                      $("#spnrate").text("*");
+                   
+                     const urlParams = new URLSearchParams(window.location.search);
+
+const productId = urlParams.get('id');
+
+      if(productId==null)
+      {
+                  $("#btnSave").on("click",function(event){
+                      event.preventDefault();
+                      var product = new Object();
+                      product.id=0;
+                      product.name=$("#name").val().trim();
+                      product.qty=$("#qty").val();
+                      product.rate=$("#rate").val();
+                      product.catId=1;
+                      product.isActive=$("#isactive").is(":checked");
+                      product.profile="default.jpg";
+
+
+
+                      var name=$("#name");
+                      var qty=$("#qty");
+                      var rate=$("#rate");
+                      let error = false;
+                     if (IsBlank(name)) {
+                      $("#spnname").text("Name should not empty");
+                       // alert("Name should not empty");
+                        error = true;
+                    }else if (IsBlank(qty)) {
+                      $("#spnqty").text("Qty should not empty");
+                      // alert("Qty should not empty");
+                        error = true;
+                    }else if (IsBlank(rate)) {
+                      $("#spnrate").text("Rate should not empty");
+                     //  alert("Rate should not empty");
+                        error = true;
+                    }
+                    else if (qty.val() <= 0) {
+                      $("#spnqty").text("Qty should more than zero");
+                       // alert("Qty should more than zero");
+                        error = true;
+                    }
+                   else if (rate.val() <= 0) {
+                      $("#spnrate").text("Rate should more than zero");
+                       // alert("Rate should more than zero");
+                        error = true;
+                    }
+                    if (error) {
+                        event.preventDefault();
+                    }
+                    else {
+                      $.ajax(
+                          "http://localhost:6855/api/Product",
+                          {
+                              contentType:"application/json; charset=utf-8",
+                              type:"POST",
+                              data:JSON.stringify(product),
+                              // data:{id:0,name:name,qty:qty,rate:rate,isActive:isActive,profile:"default.jpg",catId:1},
+                              dataType:"json",
+                              success:function(response){
+                                  if(response){
+                                      window.location.href="/GetProducts.html";
+                                  }else{
+                                      alert("Duplicate value not allowed");
+                                      console.log(JSON.stringify(response));
+                                  }
+                              },
+                              error:function(response){
+                                  let result = JSON.stringify(response);
+                                  console.log(result);
+                                  alert(result);
+                              }
+                          }
+                      )
+                     }
+                  })
+
+
+                  // function GetRow(element,index){
+                  //     let row="<tr><th scope='row'>"+index+"</th>";
+                  //         row+="<td>"+element.name+"</td>";
+                  // }
+              // });
+
+          }else {
+            
+          
+
+$(document).ready(function () {
+
+function IsBlank(input) {
+
+    let value = input.val().trim();
+
+    if (value == undefined || value == '')
+
+        return true;
+
+    return false;
+
+}
+
+function IsOnlyNumeric(input) {
+
+    let value = input.val().trim();
+
+    return isNaN(value);
+
+}
+
+$("#spnname").text("*");
+
+$("#spnqty").text("*");
+
+$("#spnrate").text("*");
+
+
+
+
+// get the ID of the record to be updated from the query string
+
+const urlParams = new URLSearchParams(window.location.search);
+
+const productId = urlParams.get('id');
+
+
+
+// make an AJAX request to get the existing record data
+
+$.ajax({
+
+    url: `http://localhost:6855/api/Product/${productId}`,
+
+    method: 'GET',
+
+    success: function (response) {
+
+        // populate the form with the existing record data
+
+        $('#name').val(response.name);
+
+        $('#qty').val(response.qty);
+
+        $('#rate').val(response.rate);
+
+        $('#isactive').prop('checked', response.isActive);
+
+    },
+
+    error: function (xhr, textStatus, errorThrown) {
+
+        console.log(xhr.responseText);
+
+    }
+
+});
+
+
+
+$("#btnSave").on("click", function (event) {
+
+    event.preventDefault();
+
+    var product = new Object();
+
+    product.id = productId; // set the ID of the record to be updated
+
+    product.name = $("#name").val().trim();
+
+    product.qty = $("#qty").val();
+
+    product.rate = $("#rate").val();
+
+    product.catId = 1;
+
+    product.isActive = $("#isactive").is(":checked");
+
+    product.profile = "default.jpg";
+
+
+
+
+    let name = $("#name");
+
+    let qty = $("#qty");
+
+    let rate = $("#rate");
+
+    let error = false;
+
+    if (IsBlank(name)) {
+
+        $("#spnname").text("Name should not empty");
+
+        //alert("Name should not empty");
+
+        error = true;
+
+    }
+
+    else if (!IsOnlyNumeric(name)) {
+
+        $("#spnname").text("Numbers are not allowed");
+
+        error = true;
+
+    }
+
+    if (qty.val() <= 0) {
+
+        $("#spnqty").text("Qty should more than zero");
+
+        error = true;
+
+    }
+
+    if (rate.val() <= 0) {
+
+        $("#spnrate").text("Rate should more than zero");
+
+        error = true;
+
+    }
+
+    if (error) {
+
+        event.preventDefault();
+
+    }
+
+    else{
+
+//         var u = new URLSearchParams(window.location.search);
+
+// var pu = u.get('id');
+// alert(pu);
+
+        $.ajax({
+
+            url: 'http://localhost:6855/api/Product',
+
+            contentType:"application/json; charset=utf-8",
+
+            type:"PUT",
+
+            data:JSON.stringify(product),
+
+            dataType:"json",
+
+            success:function(response){
+
+                if(response){
+
+                    window.location.href = "GetProducts.html";
+
+                }
+
+                else{
+
+                    alert("Duplicate value not allowed");
+
+                    console.log(JSON.stringify(response));
+
+                }
+
+            },
+
+            error:function(response){
+
+                let result = JSON.stringify(response);
+
+                console.log(result);
+
+                alert(result);
+
+            }
+
+        });
+
+    }
+
+});
+
+});
+
+
+              // $("body").on("click", "#btnSave", function () {
+              //     event.preventDefault();
+
+              //     var p = {};
+              //     p.id = $("#txtCustomerId").val();
+              //     p.name = $("#name").val();
+              //     p.qty = $("#qty").val();
+              //     p.rate = $("#rate").val();
+              //     p.catId=1;
+              //     p.isActive=$("#isactive").is(":checked");
+              //     p.profile="default.jpg";
+              //     $.ajax({
+              //         type: "POST",
+              //         url: "/Home/UpdateCustomer",
+              //         data: JSON.stringify(_customer),
+              //         contentType: "application/json; charset=utf-8",
+              //         dataType: "json",
+              //         success: function (r) {
+              //             if (r) {
+              //                 alert("Customer record updated.");
+              //             } else {
+              //                 alert("Customer not found.");
+              //             }
+              //         }
+              //     });
+              // });
+          }
+        });
+    </script>
+  </body>
+</html>

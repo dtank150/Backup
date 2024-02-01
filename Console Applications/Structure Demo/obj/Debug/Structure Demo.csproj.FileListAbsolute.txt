@@ -1,0 +1,7 @@
+C:\Users\158265\source\repos\Console Applications\Structure Demo\bin\Debug\Structure Demo.exe.config
+C:\Users\158265\source\repos\Console Applications\Structure Demo\bin\Debug\Structure Demo.exe
+C:\Users\158265\source\repos\Console Applications\Structure Demo\bin\Debug\Structure Demo.pdb
+C:\Users\158265\source\repos\Console Applications\Structure Demo\obj\Debug\Structure Demo.csproj.AssemblyReference.cache
+C:\Users\158265\source\repos\Console Applications\Structure Demo\obj\Debug\Structure Demo.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Console Applications\Structure Demo\obj\Debug\Structure Demo.exe
+C:\Users\158265\source\repos\Console Applications\Structure Demo\obj\Debug\Structure Demo.pdb

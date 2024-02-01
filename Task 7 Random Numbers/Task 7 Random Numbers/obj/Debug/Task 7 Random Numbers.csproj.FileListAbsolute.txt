@@ -1,0 +1,7 @@
+C:\Users\158265\source\repos\Task 7 Random Numbers\Task 7 Random Numbers\bin\Debug\Task 7 Random Numbers.exe.config
+C:\Users\158265\source\repos\Task 7 Random Numbers\Task 7 Random Numbers\bin\Debug\Task 7 Random Numbers.exe
+C:\Users\158265\source\repos\Task 7 Random Numbers\Task 7 Random Numbers\bin\Debug\Task 7 Random Numbers.pdb
+C:\Users\158265\source\repos\Task 7 Random Numbers\Task 7 Random Numbers\obj\Debug\Task 7 Random Numbers.csproj.AssemblyReference.cache
+C:\Users\158265\source\repos\Task 7 Random Numbers\Task 7 Random Numbers\obj\Debug\Task 7 Random Numbers.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Task 7 Random Numbers\Task 7 Random Numbers\obj\Debug\Task 7 Random Numbers.exe
+C:\Users\158265\source\repos\Task 7 Random Numbers\Task 7 Random Numbers\obj\Debug\Task 7 Random Numbers.pdb

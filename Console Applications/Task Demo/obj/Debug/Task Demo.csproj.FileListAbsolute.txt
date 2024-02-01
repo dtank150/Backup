@@ -1,0 +1,7 @@
+C:\Users\158265\source\repos\Console Applications\Task Demo\bin\Debug\Task Demo.exe.config
+C:\Users\158265\source\repos\Console Applications\Task Demo\bin\Debug\Task Demo.exe
+C:\Users\158265\source\repos\Console Applications\Task Demo\bin\Debug\Task Demo.pdb
+C:\Users\158265\source\repos\Console Applications\Task Demo\obj\Debug\Task Demo.csproj.AssemblyReference.cache
+C:\Users\158265\source\repos\Console Applications\Task Demo\obj\Debug\Task Demo.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Console Applications\Task Demo\obj\Debug\Task Demo.exe
+C:\Users\158265\source\repos\Console Applications\Task Demo\obj\Debug\Task Demo.pdb

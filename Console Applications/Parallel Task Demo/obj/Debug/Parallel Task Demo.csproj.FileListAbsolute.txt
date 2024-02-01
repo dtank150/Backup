@@ -1,0 +1,7 @@
+C:\Users\158265\source\repos\Console Applications\Parallel Task Demo\bin\Debug\Parallel Task Demo.exe.config
+C:\Users\158265\source\repos\Console Applications\Parallel Task Demo\bin\Debug\Parallel Task Demo.exe
+C:\Users\158265\source\repos\Console Applications\Parallel Task Demo\bin\Debug\Parallel Task Demo.pdb
+C:\Users\158265\source\repos\Console Applications\Parallel Task Demo\obj\Debug\Parallel Task Demo.csproj.AssemblyReference.cache
+C:\Users\158265\source\repos\Console Applications\Parallel Task Demo\obj\Debug\Parallel Task Demo.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Console Applications\Parallel Task Demo\obj\Debug\Parallel Task Demo.exe
+C:\Users\158265\source\repos\Console Applications\Parallel Task Demo\obj\Debug\Parallel Task Demo.pdb

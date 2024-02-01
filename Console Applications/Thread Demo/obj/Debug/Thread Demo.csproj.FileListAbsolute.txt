@@ -1,0 +1,7 @@
+C:\Users\158265\source\repos\Console Applications\Thread Demo\bin\Debug\Thread Demo.exe.config
+C:\Users\158265\source\repos\Console Applications\Thread Demo\bin\Debug\Thread Demo.exe
+C:\Users\158265\source\repos\Console Applications\Thread Demo\bin\Debug\Thread Demo.pdb
+C:\Users\158265\source\repos\Console Applications\Thread Demo\obj\Debug\Thread Demo.csproj.AssemblyReference.cache
+C:\Users\158265\source\repos\Console Applications\Thread Demo\obj\Debug\Thread Demo.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Console Applications\Thread Demo\obj\Debug\Thread Demo.exe
+C:\Users\158265\source\repos\Console Applications\Thread Demo\obj\Debug\Thread Demo.pdb

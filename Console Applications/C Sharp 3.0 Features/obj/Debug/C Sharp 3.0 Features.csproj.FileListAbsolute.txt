@@ -1,0 +1,7 @@
+C:\Users\158265\source\repos\Console Applications\C Sharp 3.0 Features\bin\Debug\C Sharp 3.0 Features.exe.config
+C:\Users\158265\source\repos\Console Applications\C Sharp 3.0 Features\bin\Debug\C Sharp 3.0 Features.exe
+C:\Users\158265\source\repos\Console Applications\C Sharp 3.0 Features\bin\Debug\C Sharp 3.0 Features.pdb
+C:\Users\158265\source\repos\Console Applications\C Sharp 3.0 Features\obj\Debug\C Sharp 3.0 Features.csproj.AssemblyReference.cache
+C:\Users\158265\source\repos\Console Applications\C Sharp 3.0 Features\obj\Debug\C Sharp 3.0 Features.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Console Applications\C Sharp 3.0 Features\obj\Debug\C Sharp 3.0 Features.exe
+C:\Users\158265\source\repos\Console Applications\C Sharp 3.0 Features\obj\Debug\C Sharp 3.0 Features.pdb

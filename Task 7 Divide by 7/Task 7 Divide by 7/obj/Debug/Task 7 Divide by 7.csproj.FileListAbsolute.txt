@@ -1,0 +1,7 @@
+C:\Users\158265\source\repos\Task 7 Divide by 7\Task 7 Divide by 7\bin\Debug\Task 7 Divide by 7.exe.config
+C:\Users\158265\source\repos\Task 7 Divide by 7\Task 7 Divide by 7\bin\Debug\Task 7 Divide by 7.exe
+C:\Users\158265\source\repos\Task 7 Divide by 7\Task 7 Divide by 7\bin\Debug\Task 7 Divide by 7.pdb
+C:\Users\158265\source\repos\Task 7 Divide by 7\Task 7 Divide by 7\obj\Debug\Task 7 Divide by 7.csproj.AssemblyReference.cache
+C:\Users\158265\source\repos\Task 7 Divide by 7\Task 7 Divide by 7\obj\Debug\Task 7 Divide by 7.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Task 7 Divide by 7\Task 7 Divide by 7\obj\Debug\Task 7 Divide by 7.exe
+C:\Users\158265\source\repos\Task 7 Divide by 7\Task 7 Divide by 7\obj\Debug\Task 7 Divide by 7.pdb

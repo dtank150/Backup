@@ -1,0 +1,7 @@
+C:\Users\158265\source\repos\Console Applications\Array List Demo\bin\Debug\Array List Demo.exe.config
+C:\Users\158265\source\repos\Console Applications\Array List Demo\bin\Debug\Array List Demo.exe
+C:\Users\158265\source\repos\Console Applications\Array List Demo\bin\Debug\Array List Demo.pdb
+C:\Users\158265\source\repos\Console Applications\Array List Demo\obj\Debug\Array List Demo.csproj.AssemblyReference.cache
+C:\Users\158265\source\repos\Console Applications\Array List Demo\obj\Debug\Array List Demo.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Console Applications\Array List Demo\obj\Debug\Array List Demo.exe
+C:\Users\158265\source\repos\Console Applications\Array List Demo\obj\Debug\Array List Demo.pdb

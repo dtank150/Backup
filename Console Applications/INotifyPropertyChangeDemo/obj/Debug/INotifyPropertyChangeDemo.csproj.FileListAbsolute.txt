@@ -1,0 +1,6 @@
+C:\Users\158265\source\repos\Console Applications\INotifyPropertyChangeDemo\bin\Debug\INotifyPropertyChangeDemo.exe.config
+C:\Users\158265\source\repos\Console Applications\INotifyPropertyChangeDemo\bin\Debug\INotifyPropertyChangeDemo.exe
+C:\Users\158265\source\repos\Console Applications\INotifyPropertyChangeDemo\bin\Debug\INotifyPropertyChangeDemo.pdb
+C:\Users\158265\source\repos\Console Applications\INotifyPropertyChangeDemo\obj\Debug\INotifyPropertyChangeDemo.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Console Applications\INotifyPropertyChangeDemo\obj\Debug\INotifyPropertyChangeDemo.exe
+C:\Users\158265\source\repos\Console Applications\INotifyPropertyChangeDemo\obj\Debug\INotifyPropertyChangeDemo.pdb

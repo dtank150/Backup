@@ -1,0 +1,7 @@
+C:\Users\158265\source\repos\Console Applications\MaxMin\bin\Debug\MaxMin.exe.config
+C:\Users\158265\source\repos\Console Applications\MaxMin\bin\Debug\MaxMin.exe
+C:\Users\158265\source\repos\Console Applications\MaxMin\bin\Debug\MaxMin.pdb
+C:\Users\158265\source\repos\Console Applications\MaxMin\obj\Debug\MaxMin.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Console Applications\MaxMin\obj\Debug\MaxMin.exe
+C:\Users\158265\source\repos\Console Applications\MaxMin\obj\Debug\MaxMin.pdb
+C:\Users\158265\source\repos\Console Applications\MaxMin\obj\Debug\MaxMin.csproj.AssemblyReference.cache

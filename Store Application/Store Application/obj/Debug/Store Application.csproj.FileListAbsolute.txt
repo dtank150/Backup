@@ -1,0 +1,7 @@
+C:\Users\158265\source\repos\Store Application\Store Application\obj\Debug\Store Application.csproj.AssemblyReference.cache
+C:\Users\158265\source\repos\Store Application\Store Application\obj\Debug\Store Application.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Store Application\Store Application\bin\Debug\Store Application.exe.config
+C:\Users\158265\source\repos\Store Application\Store Application\bin\Debug\Store Application.exe
+C:\Users\158265\source\repos\Store Application\Store Application\bin\Debug\Store Application.pdb
+C:\Users\158265\source\repos\Store Application\Store Application\obj\Debug\Store Application.exe
+C:\Users\158265\source\repos\Store Application\Store Application\obj\Debug\Store Application.pdb

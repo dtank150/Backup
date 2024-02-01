@@ -1,0 +1,7 @@
+C:\Users\158265\source\repos\Console Applications\Interface Demo\bin\Debug\Interface Demo.exe.config
+C:\Users\158265\source\repos\Console Applications\Interface Demo\bin\Debug\Interface Demo.exe
+C:\Users\158265\source\repos\Console Applications\Interface Demo\bin\Debug\Interface Demo.pdb
+C:\Users\158265\source\repos\Console Applications\Interface Demo\obj\Debug\Interface Demo.csproj.AssemblyReference.cache
+C:\Users\158265\source\repos\Console Applications\Interface Demo\obj\Debug\Interface Demo.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Console Applications\Interface Demo\obj\Debug\Interface Demo.exe
+C:\Users\158265\source\repos\Console Applications\Interface Demo\obj\Debug\Interface Demo.pdb

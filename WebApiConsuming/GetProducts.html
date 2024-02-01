@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <title>Product</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="mt-5">
+            <a href="/AddProduct.html" class="nav-item bg-light" target="_blank">Add Product</a>
+        </nav>
+        <div>
+            <h2 class="text-center bg-secondary mt-5">Product List</h2>
+        </div>
+        <table class="table table-primary" id="tblProduct">
+
+        </table>
+    </div>
+    <script src="/jquery/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.ajax(
+                "http://localhost:6855/api/Product/",
+                {
+                    ccontentType:"application/json; charset=utf-8",
+                    type:"GET",
+                    dataType:"json",
+                    success:function(response){
+                        console.log(response);
+                        if(response.length > 0){
+                            var table = $("#tblProduct");
+                            let thead = "<thead>";
+                                thead+="<tr><th scope='col'>SR.NO</th>";
+                                thead+="<th scope='col'>Name</th>";
+                                thead+="<th scope='col'>Qty</th>";
+                                thead+="<th scope='col'>Rate</th>";
+                                thead+="<th scope='col'>Action</th>";
+                                thead+="</tr></thead><tbody>";
+                                $(table).append(thead);
+                                console.log(thead);
+                                response.forEach(function(element,index){
+                                    let r = GetRow(element,index+1);
+                                    console.log(r);
+                                    $(table).append(r);
+                                });
+                                $(table).append("</tbody>");
+                        }
+                    },
+                    error:function(response){
+                        alert(response);
+                    }
+                })
+                function GetRow(element,index){
+                    let edit="<a href='AddProduct.html?id="+element.id+"'/>Edit</a>";
+                    let row="<tr><th scope='row'>"+index+"</th>";
+                        row+="<td>"+element.name+"</td>";
+                        row+="<td>"+element.qty+"</td>";
+                        row+="<td>"+element.rate+"</td>";
+                        row+="<td>"+edit+"</td></tr>";
+                        return row;
+
+                }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+C:\Users\158265\source\repos\GUI Application\GUI Application\bin\Debug\GUI Application.exe.config
+C:\Users\158265\source\repos\GUI Application\GUI Application\bin\Debug\GUI Application.exe
+C:\Users\158265\source\repos\GUI Application\GUI Application\bin\Debug\GUI Application.pdb
+C:\Users\158265\source\repos\GUI Application\GUI Application\obj\Debug\GUI Application.csproj.AssemblyReference.cache
+C:\Users\158265\source\repos\GUI Application\GUI Application\obj\Debug\GUI_Application.frmReg.resources
+C:\Users\158265\source\repos\GUI Application\GUI Application\obj\Debug\GUI_Application.Properties.Resources.resources
+C:\Users\158265\source\repos\GUI Application\GUI Application\obj\Debug\GUI Application.csproj.GenerateResource.cache
+C:\Users\158265\source\repos\GUI Application\GUI Application\obj\Debug\GUI Application.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\GUI Application\GUI Application\obj\Debug\GUI Application.exe
+C:\Users\158265\source\repos\GUI Application\GUI Application\obj\Debug\GUI Application.pdb
+C:\Users\158265\source\repos\GUI Application\GUI Application\obj\Debug\GUI_Application.frmBackgroundWorker.resources

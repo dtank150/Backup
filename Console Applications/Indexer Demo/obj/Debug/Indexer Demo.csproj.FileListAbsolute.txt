@@ -1,0 +1,7 @@
+C:\Users\158265\source\repos\Console Applications\Indexer Demo\bin\Debug\Indexer Demo.exe.config
+C:\Users\158265\source\repos\Console Applications\Indexer Demo\bin\Debug\Indexer Demo.exe
+C:\Users\158265\source\repos\Console Applications\Indexer Demo\bin\Debug\Indexer Demo.pdb
+C:\Users\158265\source\repos\Console Applications\Indexer Demo\obj\Debug\Indexer Demo.csproj.AssemblyReference.cache
+C:\Users\158265\source\repos\Console Applications\Indexer Demo\obj\Debug\Indexer Demo.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Console Applications\Indexer Demo\obj\Debug\Indexer Demo.exe
+C:\Users\158265\source\repos\Console Applications\Indexer Demo\obj\Debug\Indexer Demo.pdb

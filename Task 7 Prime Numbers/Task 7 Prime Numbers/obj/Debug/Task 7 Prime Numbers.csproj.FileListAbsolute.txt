@@ -1,0 +1,7 @@
+C:\Users\158265\source\repos\Task 7 Prime Numbers\Task 7 Prime Numbers\bin\Debug\Task 7 Prime Numbers.exe.config
+C:\Users\158265\source\repos\Task 7 Prime Numbers\Task 7 Prime Numbers\bin\Debug\Task 7 Prime Numbers.exe
+C:\Users\158265\source\repos\Task 7 Prime Numbers\Task 7 Prime Numbers\bin\Debug\Task 7 Prime Numbers.pdb
+C:\Users\158265\source\repos\Task 7 Prime Numbers\Task 7 Prime Numbers\obj\Debug\Task 7 Prime Numbers.csproj.AssemblyReference.cache
+C:\Users\158265\source\repos\Task 7 Prime Numbers\Task 7 Prime Numbers\obj\Debug\Task 7 Prime Numbers.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Task 7 Prime Numbers\Task 7 Prime Numbers\obj\Debug\Task 7 Prime Numbers.exe
+C:\Users\158265\source\repos\Task 7 Prime Numbers\Task 7 Prime Numbers\obj\Debug\Task 7 Prime Numbers.pdb

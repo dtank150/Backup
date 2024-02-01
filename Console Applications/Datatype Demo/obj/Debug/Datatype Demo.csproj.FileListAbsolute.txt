@@ -1,0 +1,7 @@
+C:\Users\158265\source\repos\Console Applications\Datatype Demo\bin\Debug\Datatype Demo.exe.config
+C:\Users\158265\source\repos\Console Applications\Datatype Demo\bin\Debug\Datatype Demo.exe
+C:\Users\158265\source\repos\Console Applications\Datatype Demo\bin\Debug\Datatype Demo.pdb
+C:\Users\158265\source\repos\Console Applications\Datatype Demo\obj\Debug\Datatype Demo.csproj.AssemblyReference.cache
+C:\Users\158265\source\repos\Console Applications\Datatype Demo\obj\Debug\Datatype Demo.csproj.CoreCompileInputs.cache
+C:\Users\158265\source\repos\Console Applications\Datatype Demo\obj\Debug\Datatype Demo.exe
+C:\Users\158265\source\repos\Console Applications\Datatype Demo\obj\Debug\Datatype Demo.pdb
